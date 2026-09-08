@@ -127,9 +127,10 @@ def test_own_package_not_p100_p107_extension() -> None:
 
 
 def test_no_crep_afet_gamma_bridge_symbols() -> None:
-    import peatland_rewetting_utac as m
-    from pathlib import Path
     import re
+    from pathlib import Path
+
+    import peatland_rewetting_utac as m
 
     public = " ".join(n for n in dir(m) if not n.startswith("_")).upper()
     assert "CREP" not in public
