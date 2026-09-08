@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Römer"
+    given-names: Johann
+    affiliation: "MOR Research Collective"
+title: "peatland-rewetting-utac"
+version: "1.0.0"
+date-released: "2026-09-08"
+url: "https://github.com/GenesisAeon/peatland-rewetting-utac"
+repository-code: "https://github.com/GenesisAeon/peatland-rewetting-utac"
+license: MIT
+abstract: "Peatland rewetting science: Guenther et al. 2020 (DOI 10.1038/s41467-020-15499-z; 2024 Author Correction DOI 10.1038/s41467-024-47604-x already applied) temperate CO2 sink and methane rise; Nationale Moorschutzstrategie DE 2022 (5 Mt CO2e/yr by 2030, ~53 Mt, ~7.5%); Kreyling et al. 2021 biodiversity honesty (no full restoration, no convergence over three decades). Unverified ~20 t CO2e/ha/yr figure intentionally omitted. Deliberately no UTAC/CREP/AFET bridge -- see DISCLAIMER.md. GenesisAeon P131. Own package, not a P100/P107 extension."
+keywords:
+  - GenesisAeon
+  - P131
+  - climate
+  - peatland
+  - rewetting
+  - Moorschutz
+  - biodiversity
+  - open-science
+references:
+  - type: article
+    title: "Prompt rewetting of drained peatlands reduces climate warming despite methane emissions"
+    authors:
+      - name: "Guenther, A."
+      - name: "Barthelmes, A."
+      - name: "Huth, V."
+      - name: "Joosten, H."
+      - name: "Jurasinski, G."
+      - name: "Koebsch, F."
+      - name: "Couwenberg, J."
+    year: 2020
+    journal: "Nature Communications"
+    doi: "10.1038/s41467-020-15499-z"
+  - type: article
+    title: "Author Correction: Prompt rewetting of drained peatlands reduces climate warming despite methane emissions"
+    authors:
+      - name: "Guenther, A. et al."
+    year: 2024
+    journal: "Nature Communications"
+    doi: "10.1038/s41467-024-47604-x"
+  - type: article
+    title: "Rewetting does not return drained fen peatlands to their old selves"
+    authors:
+      - name: "Kreyling, J. et al."
+    year: 2021
+    journal: "Nature Communications"
+    doi: "10.1038/s41467-021-25619-y"
